@@ -3,8 +3,8 @@ files:
 - name: src/Purse.java
   visible: true
   placeholders:
-  - offset: 156
-    length: 10
+  - offset: 78
+    length: 276
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -13,7 +13,7 @@ files:
     selected: true
     status: Failed
     encrypted_possible_answer: nSWsJMK+z1KsmghJqfKCCeYnMLOzjLQ4DP7KxhQzQCdfyPzancFhGGh/DNw+vidbmj5qbzMrRnLjHN1CeMf1Z2TPqWnNzRjN5ZyinGH+yaszUEBwwhJmP5BleAh9u4ZZg8sU2W0JQ0EIQ0Wg8QnMQsnaErBimBIUKUhoziZoTUbiHUvTHRJr5m5fmc1JMBEoByPAK0Ke2NZggZPUY7MGZQQXW6/2DM/hlDvV0I67TjuKGZh1c65c5VQtJc2TAVt+D7CGfRmKyaoAQx7jRuxD4qv+NsP1sad/p9PXDnEZObtbMTPyXXdX3N5RQjKbC2p4z0TB2v80QWlqPUPvpR7RGNBNhtULSdYNJ09Doch407rfT7w1mpCGbHH70jgRYspR
-  - offset: 370
+  - offset: 558
     length: 140
     placeholder_text: /* TODO */
     initial_state:
@@ -23,7 +23,7 @@ files:
     selected: true
     status: Failed
     encrypted_possible_answer: LGa3iCsXfuwSiqVBd2MWJ/t0AcVBQPKBDDPRl97P6GhiXbs+n54O9P4cRS0JYswi1+nnLNtddT+35+Au99pI3UUkmKsCF7ctWngnqb18u3m+rXdld2/SmYee7z/W2pIfUZY8h25xnBT+ImuRfzwS0U3ip7b0t3SR+6ZFn3fjEWs=
-  - offset: 560
+  - offset: 748
     length: 100
     placeholder_text: /* TODO */
     initial_state:
@@ -33,47 +33,47 @@ files:
     selected: true
     status: Failed
     encrypted_possible_answer: ZhpRsdGR/GvqeyWKxGwyiUOzCkozlxZWT/oQp3fMLUcn7uyWBH9BnvTaVR5QBVWSQ4cftwW65fy0UG+4OKTEQDm2q9BfwZAIG8ZHV1qVqC1wYMS6uPpdsV/hkVkfDJ7QtWUvH4B3jNhRaVBc0efVe6l8U85B2EYcG0oK5ohL+7uSvaCEL5YCqb9eQCOI19sv
-  - offset: 707
-    length: 10
+  - offset: 895
+    length: 179
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 417
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: Fqdz7iV6e2p7eQO+szH/it5xGtYP/DL3OITUZoHVZnmCvjKh9srkjBtV45UjK6hMTSKI2jQfCA/7jjSfQcuQ3jPsEBlj1v4NbERvpAcEUTQwPg0LmkiMnkGJtU/P5BuCpN/PoGh7+qd+RvsZrPc/kCpVIxs5wMwy1ukELFJJtpg+OqFV9VjAd1ujvMQGQXW4PqgKSiGIAEkceEBNXUKmp2zEf9mKUAUVwfS0hCJovxC0t6UeVfsdBl1EhtnvX+Y6
-  - offset: 764
-    length: 10
+  - offset: 1121
+    length: 169
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 474
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: Fqdz7iV6e2p7eQO+szH/it5xGtYP/DL3OITUZoHVZnmCvjKh9srkjBtV45UjK6hMK0F8m46GDn9m7ZBroTo9A8s42OMsr1FXzjXb3U6bQnhS4Ss05yrqmlA5TdIiO5QUXsbylnNoNlPTQcQS3LkolZjdY2ud0O5SfSH3G0kPB5GxftpQS+UY1dnZFT6YmDqVGiI1PyEKhoIprdhqCXVZ6nCCVWVmlrvHfIa8W38Q5wYSzMYqUIqCazwE8ZL9vah5
-  - offset: 821
-    length: 10
+  - offset: 1337
+    length: 117
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 531
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: 9X+1TQQ0QWNnQtnVTs3+m2hDL8OK7BSgBh7zj5Ib7nI2DARXaTJb5kAJkiKAyDVQ3fnx0f3830OnwyjZpyu4nIK0e2mYPQbowfv4AgZx8E3mYcMb3JtmhnpMJD52bOXpiPcE/Hx7P2IRKj9w0v+nug==
-  - offset: 883
-    length: 10
+  - offset: 1506
+    length: 72
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 593
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: Hk9c5Qm2JT8SJqd73pf6FooAVz2F8K5MC6pYVQbTKaY=
-  - offset: 949
+  - offset: 1634
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -83,7 +83,7 @@ files:
     selected: false
     status: Failed
     encrypted_possible_answer: T7i27PZ4lkb7MjAOX9Q12EriY52RJFUIAlLZN8djRqg=
-  - offset: 1020
+  - offset: 1705
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -93,7 +93,7 @@ files:
     selected: false
     status: Failed
     encrypted_possible_answer: dk94M5+G1bLDmuXYLjv47pZVLfzQnp8+t5yvWx5fUxFeG/xYQ/iHQ8RghMQFvySgWgmshDhUhr36d9Abfg3YjwU1sqAAMm3q/80Ee6u8qMkE0vG8PitFzZd5yw7dXwVXiIBSWJmy7wVNKvmk4f3y/W6/6irx7LEiueoMlqlFXdkbWhhd2/IFCkqIjI9ZeH0q/fvHx0RmvtREllNHqyAqkCDkTnrRygS1vm0YZJWKNPIKs7xYPfoC+XSu6nGVm3x5wAXeyogPUY42CKiCwEOLrmLZKG/YVXS4i9O4xroHnIlKncO9rT0Y2LSi6zGhte8bxE3MIRmWgyL2EBpVM4I5abvBEPlNV+nuXURnhRumqLSUnDYlAZhRlKXOykqnx48lJJ3gAS0lWwBUibgJGJ4SJg==
-  - offset: 1098
+  - offset: 1783
     length: 10
     placeholder_text: /* TODO */
     initial_state:

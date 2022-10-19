@@ -36,7 +36,7 @@ public class Dice {
             }
             else { //perso
                 System.out.print("Hai perso! ");
-                System.out.println("Faccia uscita: " + actualValue);
+                System.out.println("Faccia uscita: " + predictedValue);
                 playerAccount.withdraw(bet);
                 casinoAccount.deposit(bet);
             }

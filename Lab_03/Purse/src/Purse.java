@@ -1,12 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.Boolean.FALSE;
-import static java.lang.Boolean.TRUE;
-
 public class Purse {
 
-    /* TODO */
+    static final Coin DOLLAR = new Coin("Dollar", 1.00 );
+    static final Coin QUARTER = new Coin("Quarter", 0.25);
+    static  final Coin DIME = new Coin("Dime", 0.10);
+    static final Coin NICKEL = new Coin("Nickel", 0.05);
+    static final Coin CENT = new Coin("Cent", 0.01);
 
     private final List<Coin> coins;
 
@@ -22,9 +23,9 @@ public class Purse {
         Coin temp;
         for( temp : coins) {
            if(coin.equals(temp))
-               return TRUE;
+               return true;
         }
-        return FALSE;
+        return false;
     }
 
     public int count(Coin coin) {
@@ -37,19 +38,36 @@ public class Purse {
     }
 
     public Coin getMinimum() {
-        /* TODO */
+        Coin minimo = coins.get(0);
+        for(Coin single : coins){
+           if(single.getValue() < minimo.getValue())
+               minimo = single;
+        }
+        return minimo;
     }
 
     public Coin getMaximum() {
-        /* TODO */
+        Coin max = coins.get(0);
+        for(Coin single : coins){
+            if(single.getValue() > max.getValue())
+                max = single;
+        }
+        return max;
     }
 
     public double getTotal() {
-        /* TODO */
+        double tot = 0;
+        for(Coin single : coins){
+            tot += single.getValue();
+        }
+        return tot;
     }
 
     public void remove(Coin coin) {
-        /* TODO */
+        for(Coin single : coins){
+            if(coin.equals(single))
+
+        }
     }
 
     public boolean hasCoin(Coin coin) {
