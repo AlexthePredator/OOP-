@@ -3,27 +3,27 @@ files:
 - name: src/Main.java
   visible: true
   placeholders:
-  - offset: 252
-    length: 42
+  - offset: 263
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
-      offset: 252
+      offset: 263
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: sZ8V07gHm13bWjn1RTAkRU2E3J+W75Xa5ohuPSnaEYVLsQdU58G3Lw2h+xceHu9e
-  - offset: 497
-    length: 133
+    encrypted_possible_answer: 1tk8bw6n/VX6V8JmkHXFa5Mb0L19Zw98sK2QKHncCW1VBvSnumeTt8ExxAgSXCAg
+  - offset: 493
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
-      offset: 471
+      offset: 493
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: ZAEhTEFOQ2SVo3a+r46wP351uWKgtcrV1i21xXPYQC/En3Rjxj8A0FLExKiU45btXvpkQUJXdPPV+L38vqQuMbJk+lOXUyf8zgjNhEjPJ7hgJ897vxcHqqzDhF+VMqPxRin+qRvtZ9TxL9tbaHr0ZuVxVkp+3EM3Om7sRkcVyZUIB+/iE5baTlKxLVLcy3F1
-  encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4IAXIw5Vzx2t4XJ40xVZ+9uNqGQ0onEC7FL7HXvWRNwv+a9kuWI2u03f1VgliYOtbj1EUYhj6EQXGeDNN02aq/yzXgb9PiQnTBApSkqUfuRJ+UU33MR2s4086Z1HnAr5xLapZJOEOsRvfACdFBwpJCNaZPzLzGoExnxYDeM5k52V+GWHRm5Hbh4i8EtcFkmnpAhTMF5ufilw+oLXpYr69y1SQ+yiqafnP47gj02sVgHRxq6L7+cv8ob+/1TKyDZJoW/in4PJXkAfPKMxQCg+L3hbsbNv+dJ0V/Ek5O0UHwEaj2FlVLxd9LxOK4XL9QB5Hfo4uKEPYZpzSJ4zjP+NA1P1ss3MODQfhl9b1jCq3/pDayUr7uFIx0G3h/7K3bGHaRE7wiPZaDCyvOvNAaUbaO+7LUjZVlBAC4x9mrZBCOwYKQI7LprHIgF73ajyNDfg7Yz8hzPQpacqx9PJuRPXaK/fY8MlUVKqsQSwvx8tclfnWCss3cBWl6T3UfrQNO+YDqQRuzD6d+fwUiumzWoMzL8o8LENDWG5SDMTJ7+hDUzlhEEGaP+UHrP/WhUFY/PXNwE1MreaIANI5hMuBxsDPu6KL7zgBZHxMQpqNgUIJQx
+    encrypted_possible_answer: U8kAuBBt/giQXiHDQ5N4ZPab5T+b4q768S1Xc+I84Z4haIQfxr7OZn1hxMfSFbpz3K65s1FQR5jMi/0Y2XvmINLLAe5o+aRlpRxwAGTmG40dLbxN6I+B0eIsI3MtpRNcEMusc3sIeJ6F9XN4UFDXpBK2N8W2UsOGUar4Rx+nyAu01TMVHP7jbJvrd4/lAhUN6DFtXlPuahoXJK8JCJsWwQ==
+  encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW6nfAsel6emcqdEeR+qmmicTc0G9Hq1YnFah9Vb3nlqcjID0Dfuk+cnpSB0k1NsmGIqr/BCxe1NPw6YYOwiIhmjL3gph2M0hOeBYtDJwZPc3Hep2WmaM9lvQYcRgu8QgaD8iX4pskhMu5S4gqFMSNkJauZjnXHLZMS43ohW0KuONjkRxlEI++BRe2JKbCqCaHe7GzZ9Er1U/5Cd3GXhPam205Kh2blmMeczr+li+GYy+l8iXEZftvFH3brMVitSuGkeQp+BgZ+o4Bb/BA/ocBtiZ0drnleJTQXeRLn8IfHMXc1GBGgdcFvuOWbD6eThveVDL9XRdcMC0wyrWc/5VcNlVJQSsBjquq4z9eE9prweGoNEilI299iwiTLwyaxEqSAMSlJyLfcOjx+5XGaI1Bvgk64pIY9GmUXlGmbBsKnQJqc4UGhUNVu8R3/j8Jst4xKyioe9P83x5PB3gPmM9OjstB0CS0diaWW+BWyGpTci+62Hdi1oMQXRXzpOsja4fO5g8Mn/fAPzm967rPmZ7EXSIpyMyI7RJuFsbRcI+R9w4bjTKc91ffYQS+0AE/JnpJ58XQPZ1o7V7UfKT7oTi707W94BbI5+Bjr8ymcoXqzYor4Dqx7gkL5wHlktvJNS6uCSLZTJpgkHVN3gaNDrNzfE=
   learner_created: false
 - name: test/output.txt
   visible: false
@@ -36,5 +36,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sun, 25 Sep 2022 10:10:33 UTC
+  time: Mon, 14 Nov 2022 10:20:37 UTC
 record: -1

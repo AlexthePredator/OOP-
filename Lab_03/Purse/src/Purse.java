@@ -20,8 +20,7 @@ public class Purse {
     }
 
     public boolean find(Coin coin) {
-        Coin temp;
-        for( temp : coins) {
+        for(Coin temp : coins) {
            if(coin.equals(temp))
                return true;
         }
@@ -29,15 +28,17 @@ public class Purse {
     }
 
     public int count(Coin coin) {
-        Coin temp;
         int i=0;
-        for(temp : coins ){
-            i++;
+        for(Coin temp : coins ){
+            if(coin.equals(temp))
+                i++;
         }
         return i;
     }
 
     public Coin getMinimum() {
+        if(coins.size() == 0)
+            return null;
         Coin minimo = coins.get(0);
         for(Coin single : coins){
            if(single.getValue() < minimo.getValue())
@@ -47,6 +48,8 @@ public class Purse {
     }
 
     public Coin getMaximum() {
+        if(coins.size() == 0)
+            return null;
         Coin max = coins.get(0);
         for(Coin single : coins){
             if(single.getValue() > max.getValue())
@@ -64,23 +67,46 @@ public class Purse {
     }
 
     public void remove(Coin coin) {
+        coins.remove(coin);
+        /*
         for(Coin single : coins){
             if(coin.equals(single))
-
-        }
+                coins.remove(single);
+        }*/
     }
 
     public boolean hasCoin(Coin coin) {
-        /* TODO */
+        for(Coin single : coins){
+            if(coin.equals(single))
+                return true;
+        }
+        return false;
+        //return coins.contains(coin);  //singola riga per usare arrayList
     }
 
     @Override
     public String toString() {
-        /* TODO */
+        return "Purse[" +
+                "Dollar = " + count(DOLLAR) + ", " +
+                "Quarter = " + count(QUARTER) + ", " +
+                "Dime = " + count(DIME) + ", " +
+                "Nickel = " + count(NICKEL) + ", " +
+                "Cent = " + count(CENT) + "]";
     }
 
-    @Override
+    @Override   //stiamo "sovrascrivendo" un metodo di un oggetto
     public boolean equals(Object o) {
-        /* TODO */
+        if( this == o )
+            return true;
+        if( o == null || getClass() != o.getClass())
+            return false;
+        Purse purse = (Purse) o;    //rendo variabile purse uguale a "o" come un oggetto Purse
+        return purse.count(DOLLAR) == this.count(DOLLAR) &&
+                purse.count(QUARTER) == this.count(QUARTER) &&
+                purse.count(DIME) == this.count(DIME) &&
+                purse.count(NICKEL) == this.count(NICKEL) &&
+                purse.count(CENT) == this.count(CENT) ;
+        //questi and restituiscono true solo se tutti true,
+        // è come se fosse un if con and e poi return true;
     }
 }

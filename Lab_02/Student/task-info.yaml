@@ -3,8 +3,8 @@ files:
 - name: src/Student.java
   visible: true
   placeholders:
-  - offset: 225
-    length: 69
+  - offset: 233
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -13,17 +13,17 @@ files:
     selected: false
     status: Failed
     encrypted_possible_answer: f5g1c10F8jbiybw+F9jZGOdNbYAKKED+1JlHRyBz3iIiGoGffBI/KSjHDNT7gNqfD4r38AiGGn1Y2tXQlM3OiFTEZOnIm+X3KMHoAGQF99Y1IwJ/VcpQHLxd1xo3nuygGNACthY9JbJktqCaNEoiJA==
-  - offset: 542
-    length: 0
+  - offset: 499
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 499
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Failed
     encrypted_possible_answer: yQ1B91b/zqJE5m5MFuGrrvGR/LVn/BUGR1qfWqYZZC4=
-  - offset: 600
+  - offset: 567
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -57,5 +57,5 @@ files:
 status: Failed
 feedback:
   message: Compilation Failed
-  time: Sat, 01 Oct 2022 16:16:46 UTC
+  time: Mon, 14 Nov 2022 10:18:52 UTC
 record: -1

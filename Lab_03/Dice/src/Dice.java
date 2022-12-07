@@ -45,9 +45,9 @@ public class Dice {
             System.out.println("Il saldo del casinò è " + casinoAccount.getBalance());
 
             if( choice.equalsIgnoreCase("no")) {
-                System.out.println("Vuoi ancora giocare? (si per continuare)");
+                System.out.println("Vuoi ancora giocare? (sì per continuare)");
                 String temp = in.next();
-                if( temp.equalsIgnoreCase("si") )
+                if( temp.equalsIgnoreCase("si") || temp.equalsIgnoreCase("sì") || temp.equalsIgnoreCase("s"))
                     choice = "si";
                 else
                     choice = "no";

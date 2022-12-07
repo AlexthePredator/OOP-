@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BankTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-18T07:38:55" hostname="LAPTOP-ALEX" time="0.002">
+<testsuite name="BankTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-14T10:17:52" hostname="LAPTOP-ALEX" time="0.004">
   <properties/>
-  <testcase name="transferTest" classname="BankTest" time="0.002"/>
+  <testcase name="transferTest" classname="BankTest" time="0.004"/>
+  <testcase name="findAccountTest" classname="BankTest" time="0.0"/>
+  <testcase name="depositTest" classname="BankTest" time="0.0"/>
+  <testcase name="withdrawTest" classname="BankTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
