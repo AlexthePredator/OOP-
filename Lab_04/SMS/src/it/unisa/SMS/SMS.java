@@ -3,22 +3,23 @@ package it.unisa.SMS;
 import java.util.GregorianCalendar;
 
 public class SMS {
-  private final String mittente;
-  private final GregorianCalendar data;
-  private final int id;
-  private final String testo;
+  private String mittente;
+  private GregorianCalendar data;
+  private int id;
+  private String testo;
 
-  public void SMS(String mittente, GregorianCalendar data, String testo){
-      this.mittente = mittente;
-      this.data = data;
-      this.testo = testo;
-  }
+    public SMS(String mittente, GregorianCalendar data, int id, String testo) {
+        this.mittente = mittente;
+        this.data = data;
+        this.id = id;
+        this.testo = testo;
+    }
 
-  public GregorianCalendar getDate(){
+    public GregorianCalendar getDate(){
       return this.data;
   }
 
-  public char getSender(){
+  public String getSender(){
       return  this.mittente;
   }
 
@@ -29,4 +30,14 @@ public class SMS {
   public String getTesto(){
       return testo;
   }
+
+    @Override
+    public String toString() {
+        return "SMS{" +
+                "mittente='" + mittente + '\'' +
+                ", data=" + data +
+                ", id=" + id +
+                ", testo='" + testo + '\'' +
+                '}';
+    }
 }

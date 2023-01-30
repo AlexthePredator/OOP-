@@ -1,6 +1,6 @@
 package it.unisa.quiz;
 
-public class Quiz implements Comparable<Double> {
+public class Quiz implements Comparable<Quiz> {
 
     private final double score;
 
@@ -14,6 +14,6 @@ public class Quiz implements Comparable<Double> {
 
     @Override
     public int compareTo(Quiz quiz){
-
+        return Double.compare(this.score, quiz.getMeasure());
     }
 }

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MagicSquare {
@@ -32,15 +33,52 @@ public class MagicSquare {
     }
 
     public void add(int x) {
-        /* TODO */
+        boolean temp = true;
+    for (int i = 0; i < n && temp; i++) {
+            for (int j = 0; j < n && temp; j++) {
+                if( square[i][j] == 0){
+                    square[i][j] = x;
+                    temp = false;
+                }
+            }
+        }
     }
 
     public boolean isMagic() {
         int magicNumber = 0;
         boolean isMagic = true;
-
-        /* TODO */
-
+        int sum = 0;
+        for (int i = 0; i < n && isMagic; i++) {    //controllo righe
+            sum = 0;
+            for (int j = 0; j < n; j++) {
+                    sum += square[i][j];
+                    if(i==0 && j==n-1)
+                        magicNumber = sum;
+                    if(magicNumber != sum && j==n-1)
+                        isMagic = false;
+            }
+        }
+        for (int j = 0; j < n && isMagic; j++) {    //controllo colonne
+            sum = 0;
+            for (int i = 0; i < n; i++) {
+                sum += square[i][j];
+                if(magicNumber != sum && i==n-1)
+                    isMagic = false;
+            }
+        }
+        sum=0;
+        for(int i=0; i<n && isMagic; i++){  //controllo diagonale principale
+            sum += square[i][i];
+            if(magicNumber != sum && i==n-1)
+                isMagic = false;
+        }
+        sum=0;
+        for (int i = 0; i < n && isMagic; i++) { //controllo altra diagonale
+            for (int j = n; j < n; j--) {
+                if(magicNumber != sum && i==n-1)
+                    isMagic = false;
+            }
+        }
         return isMagic;
     }
 
@@ -58,7 +96,7 @@ public class MagicSquare {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Inserisci n --> ");
+      System.out.print("Inserisci numero lato quadrato n --> ");
         int n = input.nextInt();
         MagicSquare square = new MagicSquare(n);
 
@@ -75,10 +113,20 @@ public class MagicSquare {
                         System.out.println("Questo numero lo avevi già inserito!");
                     }
                 }
-            } while (square.find(x) || x < 1 || x > n * n);
+            } while (square.isFull() || x < 1 || x > n * n);
             square.add(x);
             System.out.println(square);
         }
+
+        /*square.add(2);
+        square.add(7);
+        square.add(6);
+        square.add(9);
+        square.add(5);
+        square.add(1);
+        square.add(4);
+        square.add(3);
+        square.add(8);*/
 
         boolean magic = square.isMagic();
 
@@ -86,5 +134,6 @@ public class MagicSquare {
             System.out.println("È un quadrato magico!");
         else
             System.out.println("Non è un quadrato magico!");
+
     }
 }

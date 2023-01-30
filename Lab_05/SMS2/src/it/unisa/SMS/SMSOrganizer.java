@@ -1,7 +1,6 @@
 package it.unisa.SMS;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class SMSOrganizer {
     final private List<SMS> messages;
@@ -14,11 +13,19 @@ public class SMSOrganizer {
         this.messages.add(sms);
     }
 
-    public List<SMS> getListByDate() {/* TODO */parator);
+    public List<SMS> getListByDate() {
+        Comparator<SMS> mmm = (s1,s2) -> s1.getDate().compareTo(s2.getDate());
+        Collections.sort(messages, mmm);
         return this.messages;
     }
 
-    public List<SMS> getListBySender() {/* TODO */parator);
+    public List<SMS> getListBySender() {
+        Comparator<SMS> mmm = (s1,s2) -> s1.getSender().compareTo(s2.getSender());
+        Collections.sort(messages, mmm);
         return this.messages;
+    }
+
+    public List<SMS> getMessages() {
+        return messages;
     }
 }

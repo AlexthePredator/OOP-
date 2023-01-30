@@ -24,10 +24,17 @@ public class Student {
     }
 
     public void registerExam(Exam exam) {
+        this.exams.add(exam);
+    }   //exams è list  // exam è l'oggetto della classe Exam
 
-    }
+    public double computeAverageGrade() {   // media voti
+        double averageGrade = 0;
 
-    public double computeAverageGrade() {
-        /* TODO */
+        for( Exam exam : this.exams)
+            averageGrade += exam.getGrade();
+        averageGrade /= exams.size();
+
+        return averageGrade;
+
     }
 }

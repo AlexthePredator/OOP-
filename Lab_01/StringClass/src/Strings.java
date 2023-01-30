@@ -8,7 +8,7 @@ public class Strings {
         System.out.println("buongiorno".length());
 
         String s1 = "barba", s2 = "gianni";
-        System.out.println(s1.concat(s2));
+        System.out.println(s1.concat(s2));  // stampa "barbagianni"
 
         System.out.println(s1 + s2); // stampa "barbagianni"
         System.out.println("la " + s1 + " di " + s2);

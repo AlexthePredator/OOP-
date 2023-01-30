@@ -8,7 +8,9 @@ public class AudioBook extends Book {
     final private String format;
 
     public AudioBook(String title, String author, String editor, int length, String format) {
-        /* TODO */
+        super(title, author, editor);
+        this.length = length;
+        this.format = format;
     }
 
     public int getLength() {

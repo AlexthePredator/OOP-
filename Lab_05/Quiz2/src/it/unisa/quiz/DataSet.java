@@ -29,9 +29,9 @@ public class DataSet {
 
     public void add(Quiz x) {
         sum = sum + x.getMeasure();
-        if(count == 0 || getMaximum() < x.getMeasure())
+        if(count == 0 || x.compareTo(maximum) > 0)
             maximum = x;
-        if(count == 0 || getMinimum() > x.getMeasure())
+        if(count == 0 || x.compareTo(minimum) < 0)
             minimum = x;
         count++;
     }

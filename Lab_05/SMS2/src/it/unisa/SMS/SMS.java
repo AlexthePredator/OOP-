@@ -52,4 +52,14 @@ public class SMS {
         }
     };
 
+
+    @Override
+    public String toString() {
+        return "SMS{" +
+                "sender='" + sender + '\'' +
+                ", date=" + date +
+                ", id=" + id +
+                ", text='" + text + '\'' +
+                '}';
+    }
 }

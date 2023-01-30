@@ -12,11 +12,21 @@ public class FirstAndLastWord {
     }
 
     public void sort() {
-        /* TODO */
+        stringList.sort(new Comparator<>(){
+            @Override
+            public int compare(String s1, String s2){
+                    return s1.compareTo(s2);
+            }
+        });
     }
 
     public void sortIgnoreCase() {
-        /* TODO */
+        stringList.sort(new Comparator<>(){
+            @Override
+            public int compare(String s1, String s2){
+                return s1.compareToIgnoreCase(s2);
+            }
+        });
     }
 
     public String getFirst() {

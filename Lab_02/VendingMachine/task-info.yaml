@@ -30,7 +30,7 @@ files:
       length: 10
       offset: 428
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: oMhzyp5YoWdEz/fOJuZcADz+S8e8aMyktYP5+/Ubfus=
   - offset: 489
@@ -73,5 +73,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Mon, 14 Nov 2022 10:18:43 UTC
+  time: "Mon, 14 Nov 2022 10:18:43 UTC"
 record: -1

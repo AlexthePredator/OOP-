@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.school.ProfessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-25T17:00:13" hostname="LAPTOP-ALEX" time="0.01">
+  <properties/>
+  <testcase name="toStringTest" classname="it.unisa.school.ProfessorTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

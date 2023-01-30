@@ -1,12 +1,18 @@
 package it.unisa.school;
 
-public class Professor /* TODO */ {
+public class Professor extends Person {
 
-    /* TODO */
 
-    /* TODO */
 
-    /* TODO */
+    private String topic;
+
+    private double wage;
+
+    public Professor(String name, String surname, int birthYear, String topic, double wage) {
+        super(name, surname, birthYear);
+        this.topic = topic;
+        this.wage = wage;
+    }
 
     @Override
     public String toString() {

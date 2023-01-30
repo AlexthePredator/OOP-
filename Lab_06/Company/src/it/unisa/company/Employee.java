@@ -1,11 +1,15 @@
 package it.unisa.company;
 
-public class Employee /* TODO */ {
+public class Employee extends Staff {
 
     private String jobTitle;
     private float hourlyWage;
 
-    /* TODO */
+    public Employee(String name, String surname, String jobTitle, float hourlyWage){
+        super(name, surname);
+        this.hourlyWage = hourlyWage;
+        this.jobTitle = jobTitle;
+    }
 
     public String getJobTitle() {
         return jobTitle;
@@ -19,9 +23,14 @@ public class Employee /* TODO */ {
         return hourlyWage;
     }
 
-    /* TODO */
+    public void setHourlyWage(float hourlyWage) {
+        this.hourlyWage = hourlyWage;
+        this.updateSalary(hourlyWage);
+    }
 
-    /* TODO */
+    private void updateSalary(float hourlyWage){
+        this.setWage(40*hourlyWage);
+    }
 
     @Override
     public String toString() {

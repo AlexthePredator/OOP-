@@ -11,27 +11,34 @@ files:
 - name: src/it/unisa/SMS/SMSOrganizer.java
   visible: true
   placeholders:
-  - offset: 337
-    length: 10
+  - offset: 306
+    length: 120
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 337
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: bFhXrDGawWugXD2mI44MvnWj1fPqokPmLmORqgRVWclGR0o5SkiD6fM4hr5PMmff
-  - offset: 434
-    length: 10
+  - offset: 505
+    length: 122
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 434
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: bFhXrDGawWugXD2mI44MvnWj1fPqokPmLmORqgRVWckpnEjG0cEwyz+E2UvFbFw5
   encrypted_text: YsPfolFLo/rZ2mVBdVwjqHotibEw67SXNi/1Nc1Ak5YAHl7cllLjvMGz3kWQ6GdLXyVYcTRm+j9HrGX6dvFp3aGUOkUQSBur2EU+EFtDh7CsPygKTvNGfYp36ZUs7V69Qqrc2BDemw2OZ67drtqZzSYnNaT+n+BWH7ZNb+SE0dxuxqQ1nHSfaOdr9NNWhty7C/OZFOzjbm0+yGVU9fQ6hZP/NbsaIKJe1w15DUz5Ndzkwgu4nvTE6QLnrQgSSqPUM6Gl+06D+VyXsRO7Tmgq80oSyJzOLgyajJy72DRvvufwr1OfYM74bCevtFYQ4COPcFt2sXSfr3FHAHWQ6TwMkwnUwP6wX0OcYswuzIQTfKxWJ2JrkI78864YGtw1t9rIquCRrw/8C9GN9zpOJnGMBcxHv307WIz08NUhDjC7RdepLqTr4Sy9TGT/Y04lWyzEF1ByMK3N+htFvdyRsYrSJMvjTRZyLHzZKBRvD9njnhrN51zf+KJEAT8vWlnabi/aCOfF+nc48lLHNzCDNz3Y4FsUQmjSBPMAIHFYxGZq1yyY20QBq1a08EgdNZwieqauX3Sv1YY3fSm8vLcJ6OIQrQOmS1ReVBVCeP9Q5JNmwCLWdTqfVBMEZgfZcctIlyAxbw4smVp6iWWrGbYjOhCodg==
   learner_created: false
-status: Unchecked
+- name: src/it/unisa/SMS/main.java
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 25 Jan 2023 16:44:49 UTC"
 record: -1
